@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url("bg.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0% 0%);
+    position: relative;  
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Crete Round', serif;
+    color: #2676DD;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-shadow: 0.20px 0.20px 0.20px #160f0f;
+}
+pre{
+    color: #092637;
+    font-weight: 100;
+    font-family: 'Crete Round', serif;
+    font-size: 1.5rem;
+}
+.float-start-5{
+    width: 3rem;
+}
+.container-Child{
+        height: auto;
+        width: 97vw;
+        margin: 10px;
+        box-sizing: border-box;
+        background-color: #8EC0FF;
+}
+.col-md-2{
+    position:relative;
+    width: 15rem;
+    bottom: -3rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 1.5rem;
+    background-color: #1371A7;
+}
+
+.col-md-2:hover {
+    background-color:#12405C;
+    color: #15415B ;
+  }
+
+.container2{
+    background-color: #D7EDFF;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: 10px;
+    font-family: 'Crete Round', serif;
+    height: 100vh;
+}
+.col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+h4{
+    font-size: 3rem;
+    font-family: 'Crete Round', serif;
+    color: #0C5063 ;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.container3{
+    background-color: #004C99;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin: 10px;
+    font-family: 'Crete Round', serif;
+    height: 100vh;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Crete Round', serif;
+    color: #72c0ff ;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: #489EFF;
+    padding: 10px;
+    margin: 20px;
+    width: 7rem;
+    color: #ffffff;
+    text-align: center;
+}
+.float-end {
+    position:relative;
+    bottom: 6rem;
+    left: -23rem;
+}
+.container4{
+    background-color: #C1DDFF;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin: 10px;
+    font-family: 'Crete Round', serif;
+    height: 100%;
+    border-radius: 2rem;
+}
+.col-md-4{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.container5{
+    background-color: #21436D;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: around;
+    align-items: left;
+    margin: 10px;
+    font-family: 'Crete Round', serif;
+    height: 50vh;
+}
+
+@media (max-width: 768px){
+    .conatiner1{
+     box-sizing: border-box;
+     margin: 35px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    pre{
+        font-size: 1.0rem;
+    }
+    .container-Child{
+        height: 40vh;
+        width: 100vw;   
+        margin: 35px;
+    }
+    .float-start-5{
+        width:50px;
+    }
+    container-Child .col-lg-2 {
+      width: 200px;
+      height: 100px;
+      padding: 10px;
+      margin-top: 20px;
+      box-sizing: border-box;
+    }
+    .container2{
+        height: 170vh;
+        width: 100vw;
+        margin: 35px;
+    }
+    .bg1{
+       width: 450px;
+    }
+    h4{
+        font-size: 2rem;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .container3{
+        margin: 20px;
+        width: 100vw;
+        height: 230vh;
+    }
+    .img-2{
+        width: 400px;
+
+    }
+    .float-end {
+        position:relative;
+        bottom: 2rem;
+        left: -12rem;
+    }
+    
+    container4 .img-4{
+     margin: 10px;
+    }
+    .container5{
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width:1023px){
+    .container2{
+        height: 120vh;
+    }
+    .bg1{
+        width: 350px;
+     }
+    .container3{
+        margin: 20px;
+        width: 100vw;
+        height: 120vh;
+    }
+    .img-2{
+        width: 400px;
+    }
+    .float-end {
+        position:relative;
+        bottom: 2rem;
+        left: -7rem;
+    }
+
+    .container4{
+        width: 100vw;
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .container4 .float-start {
+         width: 300px !important;
+         padding: 10px !important;
+       }
+       .container4 .form{
+        width: 400px;
+
+       }
+
+       .container5{
+           width: 100vw;
+           height: 70vh;
+           padding: 20px;
+       }
+}
